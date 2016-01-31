@@ -1,7 +1,7 @@
 name: condascipyheroku
 dependencies:
 - python=3.5.1
-- pip=8.0.2
+- pip=8.0.1
 - numpy=1.10.1
 - scipy=0.16.0
 - flask=0.10.1
