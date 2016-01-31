@@ -1,17 +1,17 @@
 name: condascipyheroku
 dependencies:
-- python=3.5.1=2
-- pip=8.0.1=py35_0
-- numpy=1.10.1=py35_0
-- scipy=0.16.0=np110py35_0
-- flask=0.10.1=py35_1
-- itsdangerous=0.24=py35_0
-- jinja2=2.8=py35_0
-- markupsafe=0.23=py35_0
-- scikit-learn=0.17=np110py35_1
-- setuptools=19.4=py35_0
-- werkzeug=0.11.3=py35_0
-- wheel=0.26.0=py35_1
+- python=3.5.1
+- pip=8.0.2
+- numpy=1.10.1
+- scipy=0.16.0
+- flask=0.10.1
+- itsdangerous=0.24
+- jinja2=2.8
+- markupsafe=0.23
+- scikit-learn=0.17
+- setuptools=19.4
+- werkzeug=0.11.3
+- wheel=0.26.0
 - pip:
   - gunicorn==19.4.5
 
