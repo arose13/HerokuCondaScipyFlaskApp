@@ -12,4 +12,5 @@ def home():
 
 
 if __name__ == '__main__':
-    app.run(port=33507)
+    # Use this port=33507 when you want to Flask to work on Heroku....
+    app.run()
