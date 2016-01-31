@@ -1,7 +1,8 @@
-from flask import Flask
+import os
 import numpy
 import scipy
 import sklearn
+from flask import Flask
 
 app = Flask(__name__)
 
@@ -12,4 +13,5 @@ def home():
 
 
 if __name__ == '__main__':
-    app.run()
+    port = int(os.environ.get('PORT', 5000))
+    app.run(port=port)
