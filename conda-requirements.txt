@@ -1,3 +1,4 @@
+nomkl
 python=3.5.1
 flask=0.10.1
 itsdangerous=0.24
